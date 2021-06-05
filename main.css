@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.container {
+  height: 14rem;
+  border-radius: .6rem;
+  margin-top: 1em;
+  padding: .4rem;
+  color: #FFAE8F;
+  background-color: #6F5A7E;
+}
+
+#controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: .5rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+          filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+}
+
+.name {
+  padding: .3rem 0;
+  color: wheat;
+  text-align: center;
+}
+
+.music {
+  padding-left: 1.2rem;
+  padding-bottom: .4rem;
+  -webkit-filter: drop-shadow(-1px 2px 5px rgba(0, 0, 0, 0.6));
+          filter: drop-shadow(-1px 2px 5px rgba(0, 0, 0, 0.6));
+}
+
+.music img {
+  margin-top: .3rem;
+  border-radius: 1rem;
+}
+
+progress[value] {
+  width: 6.4rem;
+  height: 6px;
+  margin-left: .3em;
+  border-radius: 5px;
+}
+
+progress[value]::-moz-progress-bar {
+  box-shadow: 0 2px 5px #CD6684,0 -2px 5px #CD6684;
+  background-color: #FFAE8F;
+}
+
+.timer {
+  font-size: .55rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=main.css.map */
